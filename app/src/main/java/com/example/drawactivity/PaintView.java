@@ -1,6 +1,7 @@
 package com.example.drawactivity;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -35,6 +36,7 @@ public class PaintView extends View {
         super(context, attrs, defStyleAttr);
         init(context);
     }
+
     private void init(Context context){
        paint_brush.setAntiAlias(true);
        paint_brush.setColor(current_brush);
